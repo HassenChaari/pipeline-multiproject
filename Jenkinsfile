@@ -58,12 +58,5 @@ pipeline {
         sh 'echo "finish" '
       }
     }
-    
-    stage('bye bye') {
-      steps {
-        sh 'echo "Bye Bye" '
-      }
-    }
-
   }
 }
